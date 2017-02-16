@@ -63,9 +63,9 @@ body {
 1. What is the body selector doing?
 body is making our background a nice blue color.
 
-#gameholder is making our gameholder div 600px wide and centering it in the screen. It’s invisible, but helps us organize our other elements.
+gameholder is making our gameholder div 600px wide and centering it in the screen. It’s invisible, but helps us organize our other elements.
 
-#title is setting a size for our our title div and giving that div a background image. In this case that image happens to be the title/instructions to our game. We’ll add that in the next step.
+title is setting a size for our our title div and giving that div a background image. In this case that image happens to be the title/instructions to our game. We’ll add that in the next step.
 
 - Now look in the project tab.
 - Find the file called: penguin_title.png
