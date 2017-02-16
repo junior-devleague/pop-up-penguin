@@ -176,8 +176,8 @@ In your html file:
 <div class="yeti" onclick="roar()"></div>
 ```
 
-```html
 In your app.js file:
+```html
 function roar(){
      alert("Yaaaarrrr!");
 }
