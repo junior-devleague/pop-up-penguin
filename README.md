@@ -3,28 +3,19 @@
 Get the penguin pngs!
 Before we start, we need to make sure we have all the image files this project requires. If you haven’t already, download the file at the top of this page called penguin_pngs.zip.
 
-Once you’ve downloaded the zip file make sure it’s in a place you can find it and open it to get at the files inside. It should be full of image files with the "png" extension.
+Once you’ve downloaded the **zip** file make sure it’s in a place you can find it and open it to get at the files inside. It should be full of image files with the "png" extension.
 
 ## Step 1: Upload our penguins
 Alright. Let’s start making our cute penguin game. The first thing we need to do is upload all our penguin images.
 
-Make a new app in Coder. We called ours Pop-Up Penguins.
-Open or unzip the penguin_pngs.zip file. You need the image files inside, not the zip itself.
-In Coder, open the media tab in your app. It's the file icon at the top.
-Click the “+” sign and add each file that you found inside the penguin_pngs.zip file. You should see them pop into the media folder.
-It might take a minute, but upload each of the files into your app this way.
-To finish this step:
-
-Upload all the images in the media folder.
+- Create the files: index.html, styles.css, and app.js
+- Open or unzip the penguin_pngs.zip file in the location. You need the image files inside, not the zip itself.
 
 ## Step 2: Make some divs
 
-
 Now that we’ve added all our files let’s start building our game. We’ll be adding a set of divs to our HTML and matching styles in our CSS that create the image above.
 
-Open the HTML tab and delete everything between the <body> tags.
-Add the following code:
-
+- Add the following code between the <body> tags of the HTML:
 
 <body>
     <div id="gameholder">
@@ -40,15 +31,14 @@ Add the following code:
         <div class="yeti"></div>
     </div>
 </body>
-What this code is doing:
+
+*What this code is doing:*
 
 These divs are defining the structure for our game. Each “penguin” div will be a little bump of snow hiding a penguin (or yeti). We will be adding the images to them in the CSS.
 
-Next, go to the CSS tab.
-Go ahead and erase the code that’s already there.
-Add the following code to the CSS tab:
+Next, go to the styles.css file.
 
-
+*Add the following code to the CSS tab:*
 
 body {
     background-color: #ccf5f5;
@@ -63,24 +53,24 @@ body {
     height: 150px;
     background-image:url('');
 }
-What this code is doing:
 
+*What this code is doing:*
+
+1. What is the body selector doing?
 body is making our background a nice blue color.
 
 #gameholder is making our gameholder div 600px wide and centering it in the screen. It’s invisible, but helps us organize our other elements.
 
 #title is setting a size for our our title div and giving that div a background image. In this case that image happens to be the title/instructions to our game. We’ll add that in the next step.
 
-Now open the media tab.
-Find the file called: penguin_title.png
-Put your cursor between the (' and ') at the end of the background image property, right between the quotes, and click “paste to code” in the media panel. This copies the image url to your code at the location of your cursor.
+- Now look in the project tab.
+- Find the file called: penguin_title.png
+- Put your cursor between the (' and ') at the end of the background image property, right between the quotes, and click “paste to code” in the media panel. This copies the image url to your code at the location of your cursor.
 Save and take a look at the preview window. You should see some snow covered lettering that says “Find the Penguins.”
 
 We’ve got our title, let’s add some little snow-covered mounds for our penguins!
 
-Add the following class to the CSS tab:
-
-
+*Add the following class to the CSS tab:*
 
 .penguin1 {
     width: 200px;
@@ -88,12 +78,12 @@ Add the following class to the CSS tab:
     float: left;
     background-image:url('');
 }
-Now open the media tab.
-Find the file called: mound_1.png
-Put your cursor between the (' ') at the end of the background image property and click “paste to code”
-All of our CSS looks like this so far:
 
+- Now open the media tab.
+- Find the file called: mound_1.png
+- Put your cursor between the (' ') at the end of the background image property and click “paste to code”
 
+*All of our CSS looks like this so far:*
 
 body {
     background-color: #ccf5f5;
@@ -114,23 +104,23 @@ body {
     float: left;
     background-image:url('/static/apps/pop_up_penguins/media/mound_1.png');
 }
-To finish this step:
+
+### To finish this step:
 
 Copy the .penguin1 class and use it to make styles for .penguin2 through .penguin8. Make a .yeti class as well. You’ll find image files for each one labeled in the Media folder.
 
 ## Step 3: Add a rollover
-
 
 Now let’s add a rollover or :hover effect to each one of our mounds. This will pop up a question mark and jiggle the snow a little adding intrigue and suspense to our game.
 
 In the CSS tab find our .penguin1 class.
 Make a new line above the class and add the following style:
 
-
 .penguin1:hover {
     background-image:url('');
     cursor: pointer;
 }
+
 This style is what’s called a pseudo-class. It’s a way to add effects and additional styles to elements that we’ve already created. In this case we will be changing the background image of that div when a mouse is over it. We will also be changing the cursor to a pointer, or little hand giving our users another clue that the mound is clickable.
 
 Go into the Media tab and find the image for mound_1_hover.png.
@@ -141,7 +131,6 @@ To finish this step:
 Make new :hover classes for each of our .penguin and .yeti classes. You can find the images in our media folder.
 
 ## Step 4: Pop up the penguins!
-
 
 Now that we’ve got our mounds tempting us with those question marks, let’s hide some penguins (and a yeti!) inside each one and use another pseudo-class to make them pop up when clicked.
 
