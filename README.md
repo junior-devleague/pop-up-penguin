@@ -205,3 +205,6 @@ Teach your playing partner how to change the images in the :active states and tr
 Once you’ve mastered the game we’ve built together, see if you can make it bigger and better.
 
 Let your instructor know!
+
+## Resource
+https://googlecreativelab.github.io/coder-projects/projects/pop_up_penguins/
