@@ -12,7 +12,7 @@ Alright. Let’s start making our cute penguin game. The first thing we need to 
 - Open or unzip the penguin_pngs.zip file in the location. You need the image files inside, not the zip itself.
 
 ## Step 2: Make some divs
-[![Step 2](https://raw.githubusercontent.com/junior-devleague/Pop-Up-Penguin/master/images/step_02.jpg)]
+![Step 2](https://raw.githubusercontent.com/junior-devleague/Pop-Up-Penguin/master/images/step_02.jpg)
 
 
 Now that we’ve added all our files let’s start building our game. We’ll be adding a set of divs to our HTML and matching styles in our CSS that create the image above.
