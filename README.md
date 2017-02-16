@@ -17,6 +17,7 @@ Now that we’ve added all our files let’s start building our game. We’ll be
 
 - Add the following code between the <body> tags of the HTML:
 
+```html
 <body>
     <div id="gameholder">
         <div id="title"></div>
@@ -31,6 +32,7 @@ Now that we’ve added all our files let’s start building our game. We’ll be
         <div class="yeti"></div>
     </div>
 </body>
+```
 
 *What this code is doing:*
 
@@ -40,6 +42,7 @@ Next, go to the styles.css file.
 
 *Add the following code to the CSS tab:*
 
+```html
 body {
     background-color: #ccf5f5;
 }
@@ -53,6 +56,7 @@ body {
     height: 150px;
     background-image:url('');
 }
+```
 
 *What this code is doing:*
 
@@ -72,19 +76,22 @@ We’ve got our title, let’s add some little snow-covered mounds for our pengu
 
 *Add the following class to the CSS tab:*
 
+```html
 .penguin1 {
     width: 200px;
     height: 200px;
     float: left;
     background-image:url('');
 }
+```
 
-- Now open the media tab.
+- Now look in the project tab.
 - Find the file called: mound_1.png
 - Put your cursor between the (' ') at the end of the background image property and click “paste to code”
 
 *All of our CSS looks like this so far:*
 
+```html
 body {
     background-color: #ccf5f5;
 }
@@ -104,6 +111,7 @@ body {
     float: left;
     background-image:url('/static/apps/pop_up_penguins/media/mound_1.png');
 }
+```
 
 ### To finish this step:
 
@@ -116,10 +124,12 @@ Now let’s add a rollover or :hover effect to each one of our mounds. This will
 In the CSS tab find our .penguin1 class.
 Make a new line above the class and add the following style:
 
+```html
 .penguin1:hover {
     background-image:url('');
     cursor: pointer;
 }
+```
 
 This style is what’s called a pseudo-class. It’s a way to add effects and additional styles to elements that we’ve already created. In this case we will be changing the background image of that div when a mouse is over it. We will also be changing the cursor to a pointer, or little hand giving our users another clue that the mound is clickable.
 
@@ -137,10 +147,12 @@ Now that we’ve got our mounds tempting us with those question marks, let’s h
 In the CSS tab find the .penguin1:hover class.
 Underneath, that class add the following class:
 
-
+```html
 .penguin1:active {
     background-image:url('');
 }
+```
+
 :active is another type of pseudo-class. Similar :hover it adds/changes the style of .penguin1 when the div is clicked with the mouse.
 
 The position in the code of pseudo-classes is important. An :active class should always come after or underneath :hover in the code for the effect to work properly.
@@ -154,23 +166,26 @@ Make new :active classes for each of our .penguin and .yeti classes. Add penguin
 
 ## Step 5: Yeti alert!
 
-
 We’ve got all our penguins and yeti in place. Let’s add a yeti alert that will pop up when the yeti is clicked!
 
 Go to the JS tab.
 On the line below “//This code will run after your page loads” add a handler for the "mousedown" event to the .yeti div. It will look like this:
 
+In your html file:
+```html
+<div class="yeti" onclick="roar()"></div>
+```
 
-$(document).ready( function() {
-    //This code will run after your page loads
-    $(".yeti").mousedown(function() {
-        alert("Yaaaarrrr!");
-    });
-});
-This is a little bit of Javascript and jQuery that will pop up a browser alert with the text “Yaaaarrrr” when you press your mouse button on the yeti. Try it out in the preview mode. To learn more about Javascript try playing around with the Night and Day project next.
+```html
+In your app.js file:
+function roar(){
+     alert("Yaaaarrrr!");
+}
+```
+
+This is a little bit of Javascript that will pop up a browser alert with the text “Yaaaarrrr” when you press your mouse button on the yeti. Try it out in the preview mode. To learn more about Javascript try playing around with the Night and Day project next.
 
 Step 6: Mix it up and challenge someone
-
 
 Now that we’ve got all our penguins (and yeti) hidden let’s play the game! Find a friend or a family member and challenge them to find all the penguins without accidently clicking on the yeti.
 
