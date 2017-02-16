@@ -120,6 +120,7 @@ body {
 Copy the .penguin1 class and use it to make styles for .penguin2 through .penguin8. Make a .yeti class as well. You’ll find image files for each one labeled in the Media folder.
 
 ## Step 3: Add a rollover
+![Step 3](https://raw.githubusercontent.com/junior-devleague/Pop-Up-Penguin/master/images/step_03.jpg)
 
 Now let’s add a rollover or :hover effect to each one of our mounds. This will pop up a question mark and jiggle the snow a little adding intrigue and suspense to our game.
 
@@ -143,6 +144,7 @@ To finish this step:
 Make new :hover classes for each of our .penguin and .yeti classes. You can find the images in our media folder.
 
 ## Step 4: Pop up the penguins!
+![Step 4](https://raw.githubusercontent.com/junior-devleague/Pop-Up-Penguin/master/images/step_04.jpg)
 
 Now that we’ve got our mounds tempting us with those question marks, let’s hide some penguins (and a yeti!) inside each one and use another pseudo-class to make them pop up when clicked.
 
@@ -167,6 +169,7 @@ To finish this step:
 Make new :active classes for each of our .penguin and .yeti classes. Add penguin images from the media tab. Make sure you hide the Yeti somewhere too.
 
 ## Step 5: Yeti alert!
+![Step 5](https://raw.githubusercontent.com/junior-devleague/Pop-Up-Penguin/master/images/step_05.jpg)
 
 We’ve got all our penguins and yeti in place. Let’s add a yeti alert that will pop up when the yeti is clicked!
 
@@ -188,6 +191,7 @@ function roar(){
 This is a little bit of Javascript that will pop up a browser alert with the text “Yaaaarrrr” when you press your mouse button on the yeti. Try it out in the preview mode. To learn more about Javascript try playing around with the Night and Day project next.
 
 Step 6: Mix it up and challenge someone
+![Step 6](https://raw.githubusercontent.com/junior-devleague/Pop-Up-Penguin/master/images/step_06.jpg)
 
 Now that we’ve got all our penguins (and yeti) hidden let’s play the game! Find a friend or a family member and challenge them to find all the penguins without accidently clicking on the yeti.
 
