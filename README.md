@@ -86,7 +86,7 @@ We’ve got our title, let’s add some little snow-covered mounds for our pengu
 ```
 
 - Now look in the project tab.
-- Find the file called: mound_1.png
+- Find the file called: **mound_1.png**
 - Put your cursor between the (' ') at the end of the background image property and click “paste to code”
 
 *All of our CSS looks like this so far:*
