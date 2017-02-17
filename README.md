@@ -62,7 +62,6 @@ body {
 
 *What this code is doing:*
 
-1. What is the body selector doing?
 body is making our background a nice blue color.
 
 gameholder is making our gameholder div 600px wide and centering it in the screen. It’s invisible, but helps us organize our other elements.
