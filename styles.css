@@ -1,0 +1,149 @@
+body {
+    background-color: #ccf5f5;
+}
+#gameholder {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#title {
+    width: 600px;
+    height: 150px;
+    background-image:url('/penguin_pngs/penguin_title.png');
+}
+
+.penguin1 {
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-image:url('/penguin_pngs/mound_1.png');
+}
+
+.penguin1:hover {
+    background-image:url('/penguin_pngs/mound_1_hover.png');
+    cursor: pointer;
+}
+
+.penguin1:active {
+    background-image:url('/penguin_pngs/penguin_1.png');
+}
+.penguin2 {
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-image:url('/penguin_pngs/mound_1.png');
+}
+
+.penguin2:hover {
+    background-image:url('/penguin_pngs/mound_1_hover.png');
+    cursor: pointer;
+}
+
+.penguin2:active {
+    background-image:url('/penguin_pngs/penguin_1.png');
+}
+.penguin3 {
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-image:url('/penguin_pngs/mound_1.png');
+}
+
+.penguin3:hover {
+    background-image:url('/penguin_pngs/mound_1_hover.png');
+    cursor: pointer;
+}
+
+.penguin3:active {
+    background-image:url('/penguin_pngs/penguin_1.png');
+}
+.penguin4 {
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-image:url('/penguin_pngs/mound_1.png');
+}
+
+.penguin4:hover {
+    background-image:url('/penguin_pngs/mound_1_hover.png');
+    cursor: pointer;
+}
+
+.penguin4:active {
+    background-image:url('/penguin_pngs/penguin_1.png');
+}
+.penguin5 {
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-image:url('/penguin_pngs/mound_1.png');
+}
+
+.penguin5:hover {
+    background-image:url('/penguin_pngs/mound_1_hover.png');
+    cursor: pointer;
+}
+
+.penguin5:active {
+    background-image:url('/penguin_pngs/penguin_1.png');
+}
+.penguin6 {
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-image:url('/penguin_pngs/mound_1.png');
+}
+
+.penguin6:hover {
+    background-image:url('/penguin_pngs/mound_1_hover.png');
+    cursor: pointer;
+}
+
+.penguin6:active {
+    background-image:url('/penguin_pngs/penguin_1.png');
+}
+.penguin7 {
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-image:url('/penguin_pngs/mound_1.png');
+}
+
+.penguin7:hover {
+    background-image:url('/penguin_pngs/mound_1_hover.png');
+    cursor: pointer;
+}
+
+.penguin7:active {
+    background-image:url('/penguin_pngs/penguin_1.png');
+}
+.penguin8 {
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-image:url('/penguin_pngs/mound_1.png');
+}
+
+.penguin8:hover {
+    background-image:url('/penguin_pngs/mound_1_hover.png');
+    cursor: pointer;
+}
+
+.penguin8:active {
+    background-image:url('/penguin_pngs/penguin_1.png');
+}
+.yeti {
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-image:url('/penguin_pngs/mound_1.png');
+}
+
+.yeti:hover {
+    background-image:url('/penguin_pngs/mound_1_hover.png');
+    cursor: pointer;
+}
+
+.yeti:active {
+    background-image:url('/penguin_pngs/yeti.png');
+}
