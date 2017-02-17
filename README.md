@@ -14,7 +14,6 @@ Alright. Let’s start making our cute penguin game. The first thing we need to 
 ## Step 2: Make some divs
 ![Step 2](https://raw.githubusercontent.com/junior-devleague/Pop-Up-Penguin/master/images/step_02.jpg)
 
-
 Now that we’ve added all our files let’s start building our game. We’ll be adding a set of divs to our HTML and matching styles in our CSS that create the image above.
 
 - Add the following code between the <body> tags of the HTML:
@@ -69,7 +68,7 @@ gameholder is making our gameholder div 600px wide and centering it in the scree
 title is setting a size for our our title div and giving that div a background image. In this case that image happens to be the title/instructions to our game. We’ll add that in the next step.
 
 - Now look in the project tab.
-- Find the file called: penguin_title.png
+- Find the file called: **penguin_title.png**
 - Put your cursor between the (' and ') at the end of the background image property, right between the quotes, and click “paste to code” in the media panel. This copies the image url to your code at the location of your cursor.
 Save and take a look at the preview window. You should see some snow covered lettering that says “Find the Penguins.”
 
