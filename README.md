@@ -172,9 +172,6 @@ Make new :active classes for each of our .penguin and .yeti classes. Add penguin
 
 We’ve got all our penguins and yeti in place. Let’s add a yeti alert that will pop up when the yeti is clicked!
 
-Go to the JS tab.
-On the line below “//This code will run after your page loads” add a handler for the "mousedown" event to the .yeti div. It will look like this:
-
 In your html file:
 ```html
 <div class="yeti" onclick="roar()"></div>
