@@ -103,13 +103,13 @@ body {
 #title {
     width: 600px;
     height: 150px;
-    background-image:url('/static/apps/pop_up_penguins/media/penguin_title.png');
+    background-image:url('/penguin_pngs/penguin_title.png');
 }
 .penguin1 {
     width: 200px;
     height: 200px;
     float: left;
-    background-image:url('/static/apps/pop_up_penguins/media/mound_1.png');
+    background-image:url('/penguin_pngs/mound_1.png');
 }
 ```
 
@@ -159,9 +159,9 @@ Underneath, that class add the following class:
 
 The position in the code of pseudo-classes is important. An :active class should always come after or underneath :hover in the code for the effect to work properly.
 
-Go into the media tab and find a penguin image. You can start with penguin_1.png.
-Paste the code for the image inbetween the (‘’)
-Go back to the preview and click the first mound. Did the penguin pop up? Hold your mouse button down to keep the penguin from popping back down.
+- Go into the media tab and find a penguin image. You can start with penguin_1.png.
+- Paste the code for the image inbetween the (‘’)
+- Go back to the preview and click the first mound. Did the penguin pop up? Hold your mouse button down to keep the penguin from popping back down.
 To finish this step:
 
 Make new :active classes for each of our .penguin and .yeti classes. Add penguin images from the media tab. Make sure you hide the Yeti somewhere too.
@@ -173,7 +173,7 @@ We’ve got all our penguins and yeti in place. Let’s add a yeti alert that wi
 
 In your html file:
 ```html
-<div class="yeti" onclick="roar()"></div>
+<div class="yeti" onmousedown="roar()"></div>
 ```
 
 In your app.js file:
