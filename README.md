@@ -179,7 +179,7 @@ In your html file:
 In your app.js file:
 ```html
 function roar(){
-     alert("Yaaaarrrr!");
+     alert("RAAAAWWWWRRRRR!");
 }
 ```
 
@@ -188,7 +188,7 @@ This is a little bit of Javascript that will pop up a browser alert with the tex
 Step 6: Mix it up and challenge someone
 ![Step 6](https://raw.githubusercontent.com/junior-devleague/Pop-Up-Penguin/master/images/step_06.jpg)
 
-Now that we’ve got all our penguins (and yeti) hidden let’s play the game! Find a friend or a family member and challenge them to find all the penguins without accidently clicking on the yeti.
+Now that we’ve got all our penguins (and yeti) hidden let’s play the game! Find a friend and challenge them to find all the penguins without accidently clicking on the yeti.
 
 After they’ve had a go, mix the classes up in your HTML to reshuffle the mounds and let them try again. To make it extra challenging, change the images in the :active states to put different penguins (and your yeti) under different mounds.
 
@@ -197,9 +197,12 @@ After they’ve had a go, mix the classes up in your HTML to reshuffle the mound
 Teach your playing partner how to change the images in the :active states and trade off challenging each other to a game of “Find the Penguins.”
 
 ## Bonus Rounds
-Once you’ve mastered the game we’ve built together, see if you can make it bigger and better.
+Double or triple the number of mounds to make the game more challenging! You can use the same penguin png files more than once if you like but you’ll need to make more divs and classes. Be creative, try and add your own png files if you can!
 
 Let your instructor know!
 
 ## Resource
-https://googlecreativelab.github.io/coder-projects/projects/pop_up_penguins/
+Review Pseudo Selectors: https://www.w3schools.com/css/css_pseudo_classes.asp
+Intro to JS Functions: https://www.w3schools.com/js/js_functions.asp
+Intro to JS Events: https://www.w3schools.com/js/js_events.asp
+
