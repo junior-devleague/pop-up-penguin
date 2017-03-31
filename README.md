@@ -213,12 +213,12 @@ After they’ve had a go, mix the classes up in your HTML to reshuffle the mound
 Teach your playing partner how to change the images in the :active states and trade off challenging each other to a game of “Find the Penguins.”
 
 ## Bonus Rounds
-Double or triple the number of mounds to make the game more challenging! You can use the same penguin png files more than once if you like but you’ll need to make more divs and classes. Be creative, try and add your own png files if you can!
+Double or triple the number of mounds to make the game more challenging! You can use the same penguin png files more than once if you like but you’ll need to make more divs and classes. Be creative, try and add your own png files if you can! Also! Add some sounds each squeak, squawks, and roars!
 
 Let your instructor know!
 
 ## Resource
-Review Pseudo Selectors: https://www.w3schools.com/css/css_pseudo_classes.asp
-Intro to JS Functions: https://www.w3schools.com/js/js_functions.asp
-Intro to JS Events: https://www.w3schools.com/js/js_events.asp
+- Review Pseudo Selectors: https://www.w3schools.com/css/css_pseudo_classes.asp
+- Intro to JS Functions: https://www.w3schools.com/js/js_functions.asp
+- Intro to JS Events: https://www.w3schools.com/js/js_events.asp
 
