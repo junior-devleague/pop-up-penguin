@@ -37,25 +37,33 @@ Now that we’ve added all our files let’s start building our game. We’ll be
 
 *What this code is doing:*
 
-These divs are defining the structure for our game. Each “penguin” div will be a little bump of snow hiding a penguin (or yeti). We will be adding the images to them in the CSS.
+These divs are defining the structure for our game. Notice the spacing and how we've set up a main container div called "game holder". Each “penguin” div will be a little bump of snow hiding a penguin (or yeti). We will be adding the images to them in the CSS.
 
 Next, go to the styles.css file.
 
-*Add the following code to the CSS tab:*
+*Add the following code to the CSS tab:* 
 
 ```html
+//write all your code beneath the comments.
 body {
-    background-color: #ccf5f5;
+    //add a background color of #ccf5f5
+  
 }
 #gameholder {
-    width: 600px;
-    margin-left: auto;
-    margin-right: auto;
+    //set the width of 600px
+
+    //set the margin left to auto
+
+    //set the margin right to auto
+
 }
 #title {
-    width: 600px;
-    height: 150px;
-    background-image:url('');
+    //set the width to 600px
+
+    //set the height to 150px
+    
+    //set the background image to an empty url
+
 }
 ```
 
@@ -63,7 +71,7 @@ body {
 
 body is making our background a nice blue color.
 
-gameholder is making our gameholder div 600px wide and centering it in the screen. It’s invisible, but helps us organize our other elements.
+"gameholder" is making our gameholder div 600px wide and centering it in the screen. It’s invisible, but helps us organize our other elements.
 
 title is setting a size for our our title div and giving that div a background image. In this case that image happens to be the title/instructions to our game. We’ll add that in the next step.
 
@@ -78,10 +86,14 @@ We’ve got our title, let’s add some little snow-covered mounds for our pengu
 
 ```html
 .penguin1 {
-    width: 200px;
-    height: 200px;
-    float: left;
-    background-image:url('');
+    //set the width to 200px
+
+    //set the height to 200px
+    
+    //set the float to left
+
+    //set the background image to an empty url
+
 }
 ```
 
@@ -126,9 +138,12 @@ In the CSS tab find our .penguin1 class.
 Make a new line above the class and add the following style:
 
 ```html
+//create a hover pseudo selector to the penguin1 class
 .penguin1:hover {
-    background-image:url('');
-    cursor: pointer;
+    //set the background image to an empty url
+
+    //set the cursor to a pointer
+
 }
 ```
 
@@ -179,7 +194,8 @@ In your html file:
 In your app.js file:
 ```html
 function roar(){
-     alert("RAAAAWWWWRRRRR!");
+    //create and alert function that passes in the string parameter "RAAAAAAWWWWRRRRR"
+    
 }
 ```
 
