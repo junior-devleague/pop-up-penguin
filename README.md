@@ -201,7 +201,7 @@ function roar(){
 
 This is a little bit of Javascript that will pop up a browser alert with the text “Yaaaarrrr” when you press your mouse button on the yeti. Try it out in the preview mode. To learn more about Javascript try playing around with the Night and Day project next.
 
-Step 6: Mix it up and challenge someone
+## Step 6: Mix it up and challenge someone
 ![Step 6](https://raw.githubusercontent.com/junior-devleague/Pop-Up-Penguin/master/images/step_06.jpg)
 
 Now that we’ve got all our penguins (and yeti) hidden let’s play the game! Find a friend and challenge them to find all the penguins without accidently clicking on the yeti.
