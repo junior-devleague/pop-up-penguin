@@ -212,8 +212,10 @@ After they’ve had a go, mix the classes up in your HTML to reshuffle the mound
 
 Teach your playing partner how to change the images in the :active states and trade off challenging each other to a game of “Find the Penguins.”
 
-## Bonus Rounds
-Double or triple the number of mounds to make the game more challenging! You can use the same penguin png files more than once if you like but you’ll need to make more divs and classes. Be creative, try and add your own png files if you can! Also! Add some sounds each squeak, squawks, and roars!
+## Stretch Goals
+- Double or triple the number of mounds to make the game more challenging! You can use the same penguin png files more than once if you like but you’ll need to make more divs and classes. Be creative, try and add your own png files if you can! Also! Add some sounds each squeak, squawks, and roars!
+- Replace the images with your own images.
+- Create levels of the game with each level increasing the mounds.
 
 Let your instructor know!
 
